@@ -1,0 +1,176 @@
+/* Light background with dark text for default theme */
+body {
+    background-color: #ffffff; /* Default Light Theme Background */
+    color: #000000; /* Default Light Theme Text */
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+/* Customize headers */
+h1, h2, h5 {
+    color: #1f1f1f; /* Darker color for light theme */
+}
+
+h6 {
+    color: #a1a1a1;
+}
+
+/* Custom styling for video player and list */
+.video-container {
+    margin-bottom: 20px;
+}
+
+video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+
+/* Video list customization */
+.video-list li {
+    list-style: none;
+    padding: 10px;
+    background: #f8f9fa; /* Light background for video list */
+    border: 1px solid #ccc; /* Lighter border for video list */
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.video-list li:hover {
+    background-color: #ddd;
+}
+
+.video-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.video-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+/* Footer */
+footer {
+    position: fixed; /* Fix the footer to the bottom */
+    bottom: 0;
+    width: 100%; /* Make sure the footer spans the full width */
+    text-align: center;
+    padding: 10px;
+    background-color: #121212;
+    color: #e0e0e0;
+    /* Removed border-top to eliminate the weird line */
+}
+
+/* Dark Mode Footer */
+.dark-mode footer {
+    background-color: #222; /* Darker footer background in dark mode */
+    color: #ffffff; /* White text for footer in dark mode */
+}
+
+/* Comments Section */
+.comments {
+    margin-top: 20px;
+}
+
+/* Buttons */
+.btn {
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #0056b3;
+    color: #ffffff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+    border-color: #5a6268;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Dark Mode Customization */
+.dark-mode {
+    background-color: #1f1f1f; /* Dark background */
+    color: #e0e0e0; /* Light text for dark theme */
+}
+
+/* Dark Mode Headers */
+.dark-mode h1, .dark-mode h2, .dark-mode h5 {
+    color: #e1ff00; /* Bright yellow color for headings */
+}
+
+.dark-mode h6 {
+    color: #a1a1a1; /* Lighter gray for smaller headings */
+}
+
+/* Dark Mode Video List */
+.dark-mode .video-list li {
+    background: #2b2b2b; /* Darker background */
+    border: 1px solid #444;
+}
+
+.dark-mode .video-list li:hover {
+    background-color: #444;
+}
+
+.dark-mode .video-list li a {
+    color: #00e3b2; /* Light cyan color for links */
+}
+
+.dark-mode .video-list li a:hover {
+    text-decoration: underline;
+}
+
+/* Dark Mode Footer */
+.dark-mode footer {
+    background-color: #222; /* Darker footer background */
+}
+
+/* Dark Mode Buttons */
+.dark-mode .btn-primary {
+    background-color: #e5fc35;
+    border-color: #f9d342;
+    color: #40403e;
+}
+
+.dark-mode .btn-primary:hover {
+    background-color: #00e3b2;
+    transform: translateY(-2px);
+}
+
+.dark-mode .btn-secondary {
+    background-color: #333;
+    color: #fff;
+    border-color: #444;
+}
+
+.dark-mode .btn-secondary:hover {
+    background-color: #444;
+    transform: translateY(-2px);
+}
+
+/* Dark Mode Footer */
+.dark-mode footer {
+    background-color: #222; /* Darker footer background */
+    color: #ffffff; /* White text for footer in dark mode */
+}
