@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: Kopium
+    env: python
+    region: oregon # Change based on your desired region
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    plan: free
+    disk:
+      - name: persistent
+        mountPath: /var/lib/data
+        sizeGB: 1
