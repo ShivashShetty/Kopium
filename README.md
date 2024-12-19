@@ -49,7 +49,10 @@ You can deploy this project on a free cloud service such as:
 
 [PythonAnywhere](PythonAnywhere.com)
 
+Render was used to deploy this project - [Kopium](https://kopium.onrender.com)
+
 Follow the respective deployment guide to host your application.
+
 
 ## Repository Structure
 ```
